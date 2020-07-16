@@ -1,4 +1,4 @@
-#PDP8/I simulator with debugger
+# PDP8/I simulator with debugger
 
 Supports binary tape loader format for MAINDEC. Build with Visual Studio.
 
@@ -6,24 +6,24 @@ Supports binary tape loader format for MAINDEC. Build with Visual Studio.
 How to use it:
 
 Starting MAINDEC test D01C
-*btl d01c
-*sr 7777
-*pc 144
-*go
+* btl d01c
+* sr 7777
+* pc 144
+* go
 program will halt
-*go
+* go
 passing all tests is signalized by outputting <BEL> on console
 
 
 Starting MAINDEC test D02B
-*btl d02b
-*sr 5000
-*pc 200
-*go
+* btl d02b
+* sr 5000
+* pc 200
+* go
 if no halt occures during about one time switch to second part of test
 press ctrl-d
-*sr 5700
-*go
+* sr 5700
+* go
 test will print
 ADD OK
 and after sometime
@@ -33,5 +33,5 @@ what means second part also pass
 
 
 Starting focal
-*do focal.do
-*go
+* do focal.do
+* go
